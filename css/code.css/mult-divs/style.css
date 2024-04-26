@@ -1,0 +1,50 @@
+
+.parent
+{
+   width:100px;
+   height:100px;
+   
+}
+.parent img{
+ width:100px;
+}
+.parent:hover{
+    width:200px;
+    height:200px;
+}
+.sai{
+    height:100px;
+    width:200px;
+    border-radius:10px;
+    position:relative;
+    top:10px
+}
+.sai:active{
+    background-color:blue;
+}
+.sample input{
+    width:500px;
+    height:200px;
+    margin-bottom:300px;
+}
+.sai input:focus{
+    background-color:yellow;
+}
+.list-fruits ol li:last-child{
+   color:blueviolet;
+}
+.list-fruits ol li:nth-child(2)
+{
+   
+    color: red;
+}
+p:first-letter{
+    font-size:50px;
+}
+p:first-line{
+    background-color:red;
+}
+p::before
+{
+    content:"chintu";
+}
